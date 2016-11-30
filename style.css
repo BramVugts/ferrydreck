@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #000000;
+    padding: 0;
+    height: 128px;
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    width: 373px;
+    margin-top: 45px;
+    height: 165px;
+    background-color: #000000;
+    background-image: url(img/logo_2.png);
+    background-size: cover;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+.social {
+    width: 220px;
+    height: 45px;
+    float: right;
+    margin-top: 41.5px;
+    font-size: 28px;
+    color: #ffffff;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    height: 948px;
+    background-image: url(img/dj.jpg);
+    background-size: cover;
+}
+.blok {
+    background: rgba(0, 0, 0, 0.4) /* Green background with 30% opacity */;
+    height: 200px;
+    width: 100%;
+    font-size: 50px;
+    bottom: 0px;
+    position: absolute;
+    color: #ffffff;
+}
+.blok2 {
+    position: absolute;
+    bottom: 200px;
+    background-color: #FE2E2E;
+    width: 500px;
+    height: 200px;
+    margin-left: 50%;
+    font-size: 50px;
+}
+.blok3 {
+    position: absolute;
+    bottom: -100px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    margin-left: 50%;
+    z-index: 1;
+}
+.textblok {
+    padding: 50px;
+}
+.icoon {
+    color: #ffffff;
+}
+.menu {
+    height: 100px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+}
+.menutext {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.menutext a {
+    text-decoration: none !important;
+    color: #ffffff;
+    padding-right: 20px;
+}
+.menutext a:hover {
+    text-decoration: none !important;
+    color: #333333;
+}
+.menutext .active {
+    text-decoration: none;
+    color: #333333;
+    padding-right: 20px;
+}
+.menuitem {
+    padding-left: 20px;
+}
+.postcode {
+    height: 150px;
+    padding-top: 75px;
+}
+.postcode h2 {
+    float: left;
+}
+.postcodeinput {
+    border: 1px solid #3e3e3e;
+    float: left;
+    height: 50px;
+    width: 500px;
+    margin-top: 7px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.buttonzoeken {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 22px;
+    cursor: pointer;
+    margin-top: 7px;
+}
