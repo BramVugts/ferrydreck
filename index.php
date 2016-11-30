@@ -28,7 +28,7 @@
         <div class="slider">
             <div class="blok2">
                 <div class="textblok">
-                    <span class="icoon"><i class="fa fa-phone-square"></i>&nbsp;Call FreeK</span><br />
+                    <span class="icoon"><i class="fa fa-phone-square"></i>&nbsp;Call FreeK.</span><br />
                     1-234-567-890
                 </div>
             </div>
